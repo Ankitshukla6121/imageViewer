@@ -1,4 +1,4 @@
-import ImageViewer from "./components/ImageViewer";
+import ImageViewer from "./components/Imageviewer";
 import { images } from "./data/images";
 
 function App() {

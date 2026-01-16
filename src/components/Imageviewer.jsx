@@ -9,10 +9,10 @@ const ImageViewer = ({ images }) => {
   return (
     <div className="h-screen w-screen flex flex-col bg-black overflow-hidden">
 
-      {/* 🔼 MAIN IMAGE (80%) */}
+      
       <div className="flex-[8] relative flex items-center justify-center overflow-hidden">
 
-        {/* Image Counter */}
+       
         <div className="absolute top-4 left-4 bg-black/70 text-white text-sm px-3 py-1 rounded-md">
           Image {currentIndex} / {totalImages}
         </div>
@@ -24,7 +24,7 @@ const ImageViewer = ({ images }) => {
         />
       </div>
 
-      {/* 🔽 FOOTER (20%) */}
+   
       <div className="flex-[2] bg-gray-900 flex items-center px-4">
         <div className="flex gap-4 overflow-x-auto w-full">
           {images.map((img, index) => (
